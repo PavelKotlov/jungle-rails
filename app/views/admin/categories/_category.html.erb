@@ -1,10 +1,16 @@
 <% @categories.each do |category| %>
   <tr>
     <td>
-      <%= link_to "#{category.name}", category_path(category.id), class: "link"%>
+      <%= category.name %>
     </td>
     <td>
       <p><%= @products.where("category_id = #{category.id}").count %></p>
     </td>
+    <td>
+    <p><%= category.created_at %></p>
+  </td>
+  <td>
+  <p><%= category.updated_at %></p>
+</td>
   </tr>
 <% end %>
