@@ -1,2 +1,23 @@
-<h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+<section>
+
+  <header class="page-header">
+    <h1>Admin &raquo; Dashboard</h1>
+  </header>
+
+  <div class="panel panel-default catagories">
+
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Category</th>
+          <th>Number of Products</th>
+        </tr>
+      </thead>
+      <tbody>
+        <%= render 'admin/dashboard/category' %>
+      </tbody>
+    </table>
+
+  </div>
+  
+</section>

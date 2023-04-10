@@ -1,0 +1,10 @@
+<% @catagories.each do |category| %>
+  <tr>
+    <td>
+      <%= link_to "#{category.name}", category_path(category.id), class: "link"%>
+    </td>
+    <td>
+      <p><%= @products.where("category_id = #{category.id}").count %></p>
+    </td>
+  </tr>
+<% end %>
