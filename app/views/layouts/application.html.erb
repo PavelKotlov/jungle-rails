@@ -11,7 +11,7 @@
 </head>
 <body>
 
-  <%= render 'layouts/top_nav' %>
+  <%= render 'layouts/top_nav', locals: {current_user: @current_user} %>
 
   <main class="container">
     <%= yield %>
