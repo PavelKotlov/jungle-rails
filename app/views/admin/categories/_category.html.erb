@@ -1,16 +1,17 @@
-<% @categories.each do |category| %>
-  <tr>
-    <td>
-      <%= category.name %>
-    </td>
-    <td>
-      <p><%= @products.where("category_id = #{category.id}").count %></p>
-    </td>
-    <td>
+<tr>
+  <td>
+    <%= category.name %>
+  </td>
+  
+  <td>
+    <p><%= @products.where("category_id = #{category.id}").count %></p>
+  </td>
+  
+  <td>
     <p><%= category.created_at %></p>
   </td>
+  
   <td>
-  <p><%= category.updated_at %></p>
-</td>
-  </tr>
-<% end %>
+    <p><%= category.updated_at %></p>
+  </td>
+</tr>

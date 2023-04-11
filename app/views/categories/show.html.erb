@@ -1,4 +1,7 @@
 <section class="categories-show">
+  <% if active_sale? %>
+    <%= render '/admin/sales/active_sale' %>
+  <% end %>
 
   <header class="page-header">
     <h1>

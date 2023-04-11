@@ -1,4 +1,8 @@
 <section class="products-index">
+  <% if active_sale? %>
+    <%= render '/admin/sales/active_sale' %>
+  <% end %>  
+
   <header class="page-header">
     <div class="intro">
       <p>
