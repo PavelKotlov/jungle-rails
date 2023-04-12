@@ -1,7 +1,7 @@
-describe('jungle-rails', () => {
+describe('User navigates to home page', () => {
   beforeEach(() => {
-    cy.visit('/')
-  })
+    cy.visit('/');
+  });
 
   it("There are products on the page", () => {
     cy.get(".products article").should("be.visible");
