@@ -74,7 +74,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <%= link_to cart_path, class: "nav-link " do %> 
+            <%= link_to cart_path, class: "nav-link cart" do %> 
               <%= fa_icon "shopping-cart" %> My Cart (<%= cart.size %>) 
             <% end %>
           </li class="nav-item">
@@ -82,10 +82,10 @@
             <%= link_to "Logout", '/logout', class:"nav-link btn btn-dark" %>
           </li>
         <% else %>
-          <li class="nav-item">
+          <li class="nav-item login" alt="login">
             <%= link_to 'Login', '/login', class:"nav-link btn btn-dark" %>
           </li>
-          <li class="nav-item spaceer">
+          <li class="nav-item logout spaceer" alt="logout">
             <%= link_to 'Signup', '/signup',  class:"nav-link btn btn-dark" %> 
           </li>
         <% end %>
