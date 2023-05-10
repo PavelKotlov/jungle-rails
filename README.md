@@ -56,10 +56,38 @@ A mini e-commerce application built with Rails 6.1. Jungles allows a consumer to
 ## ⚫ Endpoints
 - Base URL : http://127.0.0.1:3000
 
-| <b> Http method </b> | path                             | Description                                                                             |
-| :------------------: | :------------------------------: | :-------------------------------------------------------------------------------------: |
-| `GET`                | `/`                              | Gets index page                                                                         |
-
+| <b> Http method </b> | path                             | Description                                    |
+| :------------------: | :------------------------------: | :---------------------------------------------:|
+| `GET`                | `/`                              | products#index                                 |
+| `GET`                | `/login`                         | sessions#new                                   |
+| `POST`               | `/login`                         | sessions#create                                |
+| `GET`                | `/logout`                        | sessions#destroy                               |
+| `GET`                | `/signup`                        | users#new                                      |
+| `POST`               | `/users`                         | users#create                                   |
+| `GET`                | `/admin`                         | admin/dashboard#show                           |
+| `GET`                | `/admin/products`                | admin/products#index                           |
+| `POST`               | `/admin/products`                | admin/products#create                          |
+| `GET`                | `/admin/products/new`            | admin/products#new                             |
+| `DELETE`             | `/admin/products/:id`            | admin/products#destroy                         |
+| `GET`                | `/admin/categories`              | admin/categories#index                         |
+| `POST`               | `/admin/categories`              | admin/categories#create                        |
+| `GET`                | `/admin/categories/new`          | admin/categories#new                           |
+| `DELETE`             | `/admin/categories/:id`          | dmin/categories#destroy                        |
+| `GET`                | `/admin/sales`                   | admin/sales#index                              |
+| `POST`               | `/admin/sales`                   | admin/sales#create                             |
+| `GET`                | `/admin/sales/new`               | admin/sales#new                                |
+| `DELETE`             | `/admin/sales/:id`               | admin/sales#destroy                            |
+| `GET`                | `/about`                         | about#index                                    |
+| `GET`                | `/products`                      | products#index                                 |
+| `GET`                | `/products/:id`                  | products#show                                  |
+| `GET`                | `/categories/:id`                | categories#show                                |
+| `POST`               | `/orders`                        | orders#create                                  |
+| `GET`                | `/orders/:id`                    | orders#show                                    |
+| `POST`               | `/users`                         | users#create                                   |
+| `GET`                | `/users/new`                     | users#new                                      |
+| `POST`               | `/cart/add_item`                 | carts#add_item                                 |
+| `POST`               | `/cart/remove_item`              | carts#remove_item                              |
+| `GET`                | `/cart`                          | carts#show                                     |
 
 ## 🧱 Main Structure
 ```sh
@@ -91,9 +119,6 @@ A mini e-commerce application built with Rails 6.1. Jungles allows a consumer to
 ├─── package-lock.json
 ├─── package.json
 └─── postcss.config.js
-
-
-│  ├── partials         # EJS template partials
 ```
 
 ## 📦 Tech Stack (Dependencies)
