@@ -34,7 +34,7 @@ A mini e-commerce application built with Rails 6.1. Jungles allows a consumer to
  
 ## 🚀 Getting Started
 1. Fork the repository.
-2. Install all dependencies using the `bundle install` command.
+2. Install all dependencies using the `bundle install` command[^1].
 3. Create `config/database.yml` by copying `config/database.example.yml`
 4. Create `config/secrets.yml` by copying `config/secrets.example.yml`
 5. Run `bin/rails db:reset` to create, load and seed db
@@ -139,8 +139,5 @@ A mini e-commerce application built with Rails 6.1. Jungles allows a consumer to
 ## ⚠️ Disclaimer
 - This is a project for [LHL web development bootcamp](https://www.lighthouselabs.ca/) and is not meant for production use.
 
-
-![Home Page](https://user-images.githubusercontent.com/107829745/231652974-59ed2e1e-b31b-487b-98bf-2dbf4eb68595.JPG)
-![Product Selection](https://user-images.githubusercontent.com/107829745/231653553-bb97ce45-0684-4408-96a0-cfca8ad9fcbc.JPG)
-![Admin Page](https://user-images.githubusercontent.com/107829745/231652978-8cfa8117-3d91-4ab2-b757-4b73ccdc80e6.JPG)
-![Cart Page](https://user-images.githubusercontent.com/107829745/231652979-5c983224-8ede-47f1-bc86-0b65ccafd122.JPG)
+---
+[^1]: If running this command fails due to rmagick unable to install, then run this command `sudo apt-get install imagemagick` and then repeat step 2.
