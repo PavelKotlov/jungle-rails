@@ -33,7 +33,7 @@ A mini e-commerce application built with Rails 6.1. Jungles allows a consumer to
 - Even when a store owner is logged into their account they would need to authenticate before being able to access sensitive areas such as thier dashboard.
  
 ## 🚀 Getting Started
-1. Fork the repository.
+1. Fork and clone the repository.
 2. Install all dependencies using the `bundle install` command[^1].
 3. Create `config/database.yml` by copying `config/database.example.yml`
 4. Create `config/secrets.yml` by copying `config/secrets.example.yml`
