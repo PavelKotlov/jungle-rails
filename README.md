@@ -28,9 +28,10 @@ A mini e-commerce application built with Rails 6.1. Jungles allows a consumer to
 
 ## 🌟 Features
 - A consumer can browse, view, and add to cart a number of proudcts from different categories.
+- A consumer can pay for their order and recieve an order summary.
 - A store owner can view a dashboard which shows the number of categories, products, and sales currently in their store.
 - A store owner can add or delete sales, catergories, and proudcts to and from their store.
-- Even when a store owner is logged into their account they would need to authenticate before being able to access sensitive areas such as thier dashboard.
+- A store owner would need to authenticate before being able to access sensitive areas such as thier dashboard.
  
 ## 🚀 Getting Started
 1. Fork and clone the repository.
