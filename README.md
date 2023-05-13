@@ -141,4 +141,4 @@ A mini e-commerce application built with Rails 6.1. Jungles allows a consumer to
 - This is a project for [LHL web development bootcamp](https://www.lighthouselabs.ca/) and is not meant for production use.
 
 ---
-[^1]: If running this command fails due to rmagick unable to install, then run this command `sudo apt-get install imagemagick` and then repeat step 2.
+[^1]: If running this command fails due to rmagick unable to install, then run this command `sudo apt-get install libmagickwand-dev imagemagick` and then repeat step 2.
