@@ -32,7 +32,20 @@ A mini e-commerce application built with Rails 6.1. Jungles allows a consumer to
 - A store owner can view a dashboard which shows the number of categories, products, and sales currently in their store.
 - A store owner can add or delete sales, catergories, and proudcts to and from their store.
 - A store owner would need to authenticate before being able to access sensitive areas such as thier dashboard.
- 
+
+<div align="center">
+  <h3>Purchase Feature</h3>
+  <img alt="purchase" src="https://github.com/PavelKotlov/jungle-rails/assets/107829745/7861103d-6c06-4ce2-b1e6-d2b86646f46c" width="512:288"/>
+</div>
+<div align="center">
+   <h3>Admin Features</h3>
+  <img alt="admin" src="https://github.com/PavelKotlov/jungle-rails/assets/107829745/7bb8f4bc-5f54-4661-a5c1-9d2a35b0bf6a" width="512:288"/>
+</div>
+<div align="center">
+   <h3>Sale Feature</h3>
+  <img alt="sale" src="https://github.com/PavelKotlov/jungle-rails/assets/107829745/82f9c02e-9514-4fb2-9afe-d5bda0270813" width="512:288"/>
+</div>
+
 ## 🚀 Getting Started
 1. Fork and clone the repository.
 2. Install all dependencies using the `bundle install` command[^1].
